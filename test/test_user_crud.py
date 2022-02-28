@@ -1,3 +1,5 @@
+import sys
+sys.path.append("..")
 import unittest
 from logic import user_crud
 from logic import exceptions
