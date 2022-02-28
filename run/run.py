@@ -213,7 +213,7 @@ if __name__ == "__main__":
         print(' 1 - Agregar usuario')
         print(' 2 - Mostrar lista de usuarios')
         print(' 3 - Buscar usuario')
-        print(' 4 - actualizar usuario')
+        print(' 4 - Actualizar usuario')
         print(' 5 - Eliminar usuario')
         print(' 6 - Guardar en Base de datos')
         print(' 7 - Mostrar Bases de datos')

@@ -45,6 +45,11 @@ class TestUserCrud(unittest.TestCase):
         user_crud.eliminar_usuario(1)
         with self.assertRaises(exceptions.IdNotFound):
             user_crud.eliminar_usuario(1)
+    
+    def tet_7_vaciar_lista(self):
+        user_crud.crear_usuario(1, 'jhon', 'doe', 20, 'jhondoe@hotmail.com')
+        user_crud.vaciar_lista()
+        self.assertFalse(mostrar_usuarios())
 
 
 if __name__ == '__main__':
